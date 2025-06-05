@@ -75,15 +75,17 @@ pronto, o mini-shell estará rodando!!!
 
 ## Explicando cada funcionalidade
 
-### cd (change directory)
 ---
+### cd (change directory)
+
 Comando utilizado para mudar o diretório e navegar pelas pastas.
 Exemplo:
 
 ```cd /caminho/da/pasta```
 
-### ls (list)
 ---
+### ls (list)
+
 Comando utilizado para listar o conteúdo de um diretório.
 Exemplo:
 
@@ -96,14 +98,16 @@ Exemplo:
 ```ls -la```
 ```ls -al```
 
-### pwd
 ---
+### pwd
+
 Comando utilizado para exibir o caminho completo do diretório atual em que você está no terminal.
 
 ```pwd```
 
-### path
 ---
+### path
+
 Comando utilizado para adicionar um caminho a uma lista de diretórios onde o sistema operacional busca por executáveis quando você digita um comando na linha de comando. 
 Exemplo para criar um executável e colocar no path:
 
@@ -156,30 +160,34 @@ Quando você digitar
 
 O programa limpará todos os *paths* e voltará a utilizar apenas o do sistema.
 
-### cat
 ---
+### cat
+
 Comando utilizado para exibir o conteúdo de arquivos de texto, bem como para criar e concatenar arquivos
 Exemplo:
 
 ```cat arquivo.txt```
 
-### pipe
 ---
+### pipe
+
 Comando utilizado para que a saída de um comando seja usada como entrada para outro comando, criando uma sequência de processamento de dados.
 Exemplo:
 
 ```ls | grep shell```
 
-### redirecionamento (>)
 ---
+### redirecionamento (>)
+
 Comando utilizado para redirecionar a saída de um comando para um arquivo ou para um fluxo de entrada de outro comando.
 Exemplo:
 
  ```ls -l > arquivo.txt```
  (a saída de ls vai estar em *arquivo.txt*)
 
-### exit
 ---
+### exit
+
 Comando utilizado para sair do mini-shell.
 
 ```exit```
